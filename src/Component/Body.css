@@ -1,4 +1,24 @@
 .searchBar{
     display: flex;
+    gap: 1rem; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.add{
+    background-color: #3B82F6;
+    color: white;
+    width: 3rem;
+    height: 2.6rem; 
+    border: none;
+    border-radius: 0.4rem
+}
+.container{
+    display: flex;   
+    flex-direction: column;
+    padding: 1rem;
     gap: 1rem;
+}
+.hours{
+    width: 5rem;
 }
